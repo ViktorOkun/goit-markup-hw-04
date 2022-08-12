@@ -317,7 +317,48 @@ h1, h2, h3, ul {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 50px;
 }
+
+.customers-list {
+    list-style: none;
+    display: flex;
+}
+
+.customer-link {
+    display: block;
+    display: flex;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+}
+
+.customer-link:hover,
+.customer-link:focus {
+    border: 1px solid #2196F3;
+}
+
+.icon {
+    width: 160px;
+    height: 60px;
+}
+
+.icon:hover {
+    fill: var(--accent-color)
+}
+
+.customers-list .list {
+}
+
+
+.customers-list .list:not(:last-child) {
+    margin-right: 30px;
+
+}
+
 
 /* footer */
 
@@ -449,5 +490,6 @@ h1, h2, h3, ul {
     padding: 20px 24px;
 
 }
+
 
 /* end */
