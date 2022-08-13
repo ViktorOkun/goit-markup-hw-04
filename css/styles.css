@@ -563,6 +563,7 @@ h1, h2, h3, ul {
 .button:focus {
     background-color: var(--accent-color);
     color: var(--white-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .list-button {
@@ -595,9 +596,6 @@ h1, h2, h3, ul {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    /* margin-bottom: 4px;
-    margin-left: 24px; */
-
 }
 
 .examples-paragraph {
@@ -609,7 +607,6 @@ h1, h2, h3, ul {
 }
 
 .examples-list .list {
-    /* outline: 2px solid tomato; */
     margin-bottom: 30px;
 }
 
@@ -621,9 +618,14 @@ h1, h2, h3, ul {
     border-top: 0;
     padding: 20px 24px;
 }
-
+/* 
 .examples-card:hover,
 .examples-card:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+} */
+
+.examples-list .list:hover,
+.examples-list .list:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
