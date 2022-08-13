@@ -189,6 +189,15 @@ h1, h2, h3, ul {
 }   
 
 .list-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+        
+    background: #F5F4FA;
+    border-radius: 4px;
+
     margin-bottom: 30px;
 }
 
@@ -382,6 +391,7 @@ h1, h2, h3, ul {
     display: block;
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
