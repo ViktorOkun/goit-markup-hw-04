@@ -221,11 +221,6 @@ h1, h2, h3, ul {
     border-radius: 4px;
 }
 
-.icon-list {
-    /* display: flex; */
-    width: 70px;
-    height: 70px;
-}
 
 .container-icon:not(:last-child) {
     margin-right: 30px;
@@ -385,10 +380,6 @@ h1, h2, h3, ul {
     margin-right: 10px;
 }
 
-.icon-social {
-    width: 20px;
-    height: 20px;
-}
 
 /* customers */
 
@@ -423,11 +414,6 @@ h1, h2, h3, ul {
 .customer-link:focus {
     border: 1px solid #2196F3;
     fill: var(--accent-color);
-}
-
-.icon {
-    width: 160px;
-    height: 60px;
 }
 
 
@@ -513,11 +499,6 @@ h1, h2, h3, ul {
 
 .list-footer:not(:last-child) {
     margin-right: 10px;
-}
-
-.icon-footer {
-    width: 20px;
-    height: 20px;
 }
 
 .link-footer {
